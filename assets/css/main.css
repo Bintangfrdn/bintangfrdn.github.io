@@ -270,6 +270,16 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+	
+	.typing {
+		color: #ff6c66;
+		font-weight: bold;
+	}
+
+	.diam {
+		font-weight: bold;
+	}
+
 
 /* Button */
 
