@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Saira:wght@800&display=swap"
         rel="stylesheet">
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
     <style>
         * {
@@ -72,7 +74,7 @@
             padding: 100px 10px;
         }
 
-        section div img {
+        .pp {
             width: 100px;
             aspect-ratio: 1;
             border-radius: 50%;
@@ -105,11 +107,15 @@
 		
 		.footer{
 			position: fixed;
-			font-size: 0.6em;
+			font-size: 0.7em;
 			color: white;
 			text-align: center;
 			bottom: 5px;
 			width: 100%;
+		}
+		
+		.pink{
+		color: #e18583;
 		}
 
 
@@ -120,23 +126,35 @@
     <img src="images/bg.webp" alt="bg" />
     <section>
         <div>
-            <img src="https://bintangfrdn.github.io/images/icons/ganyugif.webp" alt="dp" />
-            <h2>Bintangfrdn</h2>
+            <img class="pp" src="https://bintangfrdn.github.io/images/icons/ganyugif.webp" alt="dp" />
+            <h2><span class="typing"></span></h2>
             <div>
                 <a href="https://bintangfrdn.github.io">
-                    <i class="far fa-image"></i>
+				<img src="images/icons/gll.svg" style="height:22px">
+					<!--i class="far fa-image"></i-->
                     <p>Gallery</p>
                 </a>
                 <a href="https://www.instagram.com/bin.kouhai">
-                    <i class="fa-brands fa-instagram"></i>
+				<img src="images/icons/ig.webp" style="height:22px">
+                    <!--i class="fab fa-instagram"></i-->
                     <p>Instagram</p>
+                </a>
+                <a href="https://open.spotify.com/playlist/04NbceXkLFaXEroS8lwC1W?si=FvaTwXzSSkSgBL0kKVc5hQ">
+				<img src="images/icons/spotify.webp" style="height:22px">
+                    <!-- i class="fab fa-spotify"></i-->
+                    <p>Playlist</p>
                 </a>
             </div>
         </div>
     </section>
 
-	<div class="footer">Made with 愛 ©2023 bintangfrdn
+	<div class="footer">
+	<img src="images/icons/kiri.gif" style="height:18px" > Made with <span class="pink">愛</span> ©2023 bintangfrdn <img src="images/icons/kanan.gif" style="height:18px">
     </div>
+	
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+	<script src="assets/js/script2.js"></script>
 </body>
 
 
