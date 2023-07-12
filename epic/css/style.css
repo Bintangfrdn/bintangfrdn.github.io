@@ -43,6 +43,12 @@ body:after {
   bottom: 0;
 }
 
+ .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
 body {
   border-left: 20px solid #fef7ec;
   border-right: 20px solid #fef7ec;
@@ -87,6 +93,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Caveat', cursive;
   color: #000;
   margin-bottom: 1.5em;
+  clear: both;
+}
+
+h7 {
+  /*#font-family: "Playfair Display", times, serif; */
+  font-family: 'Caveat', cursive;
+  font-size: 26px;
+  color: #000;
+  margin-bottom: 0.1em;
   clear: both;
 }
 
