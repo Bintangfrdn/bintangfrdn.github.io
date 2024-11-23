@@ -1,1 +1,0 @@
-# bintangfrdn.github.io
